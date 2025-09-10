@@ -1,0 +1,41 @@
+/* General Body Style */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    font-family: 'Arial', sans-serif;
+    color: #37474f;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #00796b;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00695c;
+    margin-bottom: 20px;
+}
+
+/* Sections with hover */
+.about, .projects, .contact {
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.about:hover, .projects:hover, .contact:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
